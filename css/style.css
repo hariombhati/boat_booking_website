@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #e1e5e7;
+
+}
+
+#navigation {
+    display: flex;
+}
+
+#navigation img {
+    width: 90 px;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+/* main section  */
+
+#slider{
+    background: url('../image/drew-dau-4haAPMSQPN4-unsplash.jpg') no-repeat center center/cover;
+    height: 93vh;
+}
+.form-box{
+    padding: 164px 120px 0px 0px;
+}
+#slider form{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color:  rgba(0, 0, 0, 0.418);
+}
+form .fill-box{
+      display: flex;
+      width: 100%;
+}
+form .fill-box input{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+.search-btn{
+    background-color: rgb(192, 192, 0);
+    width: 90%;
+    text-align: center;
+    margin: 20px;
+}
+.search-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 0px;
+display: flex;
+justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:768px)  {
+    .container{
+        width: 100%;
+    }
+    #slider form{
+        width: auto;
+        padding: 15px;
+    }
+    .form-box {
+        padding: 164px 10px 0px 10px;
+      }
+}
+@media (max-width:406px)  {
+    #slider form{
+        width: auto;
+        padding: 15px;
+    }
+}
+
+/* services section  */
+ 
+
+.services-box{
+    background-color: #f3fffd;
+}
+
+.mainbox{
+    display: flex;
+}
+.box{
+    width: 33.33%;
+    padding: 12px;   
+} 
+span{
+    color: #a4c639;
+}
+
+.linebox {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    color: #0c5a7d;
+    font-size: 20px;
+}
+.linebox p {
+    padding: 15px 250px;
+    text-align: inherit;
+}
+
+.center{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+img{
+    width: 100%;
+} 
+.readmore{
+    border-radius: 30px;
+    padding: 10px 20px ;
+    color: white;
+    background-color:#a4c639 ;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top:20px;
+} 
+.left{
+    text-align: left;
+    color: black;
+}
+@media(max-width:530px){
+    .mainbox{
+        flex-direction: column;
+        padding: none;
+    }
+    .box{
+        width: 90%; 
+    } 
+}
+
+/* community section  */
+
+#community{
+    background-color: #e8fffc;
+}
+
+.innercomm {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    
+    
+}
+.image_rio img{
+    border-radius: 50%;
+    height: 281px;
+    width: 281px;
+    
+}
+.checked {
+    color: orange;
+}
+#rio{
+    padding: 6px;
+}
+#riopara{
+    padding: 15px 250px;
+} 
+@media(max-width:950px){
+    #riopara{
+        padding: 0px 5px;
+    } 
+    
+}
+
+/* boat section  */
+
+.main_box_service{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #165773;
+}
+.inner_box_service{
+    width: 30%;
+    padding: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo1{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+@media(max-width:950px){
+    .linebox p  {
+        padding: 0px 5px;
+    } 
+    
+    
+}
+@media(max-width:720px){
+    
+    .main_box_service{
+        /* flex-direction: column; */
+    }
+    
+    
+    .inner_box_service{
+        width: 96%;
+        
+    }
+    
+}
+@media(max-width:600px){
+    
+    .main_box_service{
+        flex-direction: column;
+    }
+    
+    .inner_box_service {
+        width: 90%;
+        padding: 4px;
+      }
+    
+   
+    
+}
+
+/* footer section  */
+
+
+#bcimage {
+    background: url('../image/gautam-krishnan-q84-1IeZytc-unsplash.jpg') no-repeat center center/cover;
+    height: auto;
+    width: 100%;
+  margin-top: 100px;
+    
+}
+.box1{
+    width: 20%;
+    padding-top: 7%;
+}
+.logo2{
+    width: 40%;
+}
+
+.innerbox2 {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    width: 100%;
+
+
+}
+
+
+.mainbox1 ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.social-icons a {
+    padding: 3.5px;
+    color: black;
+}
+
+.box2,
+.box3 {
+    padding-top: 80PX;
+}
+
+.box2 ul li a {
+    color: black;
+    z-index: 1;
+}
+
+.innerbox2 h2 {
+    padding-bottom: 10px
+}
+
+.mainbox1 ul li {
+    /* display: inline-block; */
+    list-style: none;
+    line-height: 30px;
+}
+
+.btn {
+    background-color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 70px;
+
+    
+}
+#touch{
+    text-align: left;
+}
+
+.btn a {
+    text-decoration: none;
+    
+}
+.mainbox1{
+    position: relative;
+    z-index: 1;
+}
+
+
+footer::before{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    height: 73%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+@media(max-width:950px){
+    .innerbox2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box1{
+        width: 100%;
+    }
+    #touch{
+        text-align: center;
+    }
+    .btn {
+        margin-left: 0px;
+    
+        
+    }
+    .logo2{
+        width: 100%;
+    }
+    
+}
+
+
